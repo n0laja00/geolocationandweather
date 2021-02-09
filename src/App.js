@@ -9,7 +9,7 @@ const API_URL ='https://api.openweathermap.org/data/2.5/weather?';
 const ICON_URL = 'http://openweathermap.org/img/wn/'
 const API_KEY = '';
 
-
+//Kysymys opettajalle: Miten nämä componentit oltaisiin saatu kommunikoimaan toistensa kanssa? Minä halusin aluksi saada geolocationista nuo Latit ja Lng:t, mutta en vaan saanut millään toimimaan, joten tein näin.
 function App() {
 
   const [lat, setLat] = useState(0); 
